@@ -227,7 +227,7 @@ Los tres ensambles superan a la regresión lineal en unos **0,034-0,043 de R²**
 ### 10.1 Elección de k
 El silhouette es ≈ 0,59 para k = 2 y k = 3, y cae a ≈ 0,47 en k = 4 y a ≈ 0,34 en k = 5. Se elige **k = 3** (coincide con el codo de `KneeLocator`): mantiene la separación casi igual que k = 2 y añade un segmento con significado propio. Las 2 componentes del PCA retienen el 80,7 % de la varianza, por lo que la proyección 2D representa bien los datos.
 
-![Clusters en PCA](images/clusters_pca.png)
+
 
 ### 10.2 Perfil de cada cluster
 | | Cluster 0 | Cluster 1 | Cluster 2 |
@@ -355,10 +355,6 @@ proyecto/
 └── images/
 ```
 
-**Orden de ejecución**
-1. Ejecutar `01_supervisado_ensambles.ipynb` completo; genera los CSV de `data/` (importancias y predicciones de test).
-2. Subir esos CSV a `data/` del repositorio (o dejarlos en la carpeta local).
-3. Ejecutar `02_segmentacion.ipynb`, que los lee para cruzar ambos análisis.
 
 **Semillas:** `random_state = 42` (supervisado) y `67` (K-Means).
 **Dependencias principales:** `pandas`, `numpy`, `scikit-learn ≥ 1.3` (por `TargetEncoder`), `xgboost`, `lightgbm`, `category_encoders`, `mlxtend`, `kneed`, `matplotlib`, `seaborn`, `scipy`.
