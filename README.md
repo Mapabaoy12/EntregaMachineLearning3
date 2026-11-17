@@ -54,15 +54,15 @@ El problema se divide en dos preguntas:
 ### KPIs técnicos (modelo supervisado)
 | KPI | Definición | Meta propuesta | Resultado (mejor modelo: Random Forest) |
 |---|---|---|---|
-| R² en test | Varianza de la popularidad explicada en datos no vistos | ≥ 0,55 | **0,579** ✅ |
-| MAE en test | Error absoluto medio, en puntos de popularidad (0-100) | ≤ 9 | **8,43** ✅ |
+| R² en test | Varianza de la popularidad explicada en datos no vistos | ≥ 0,55 | **0,579** |
+| MAE en test | Error absoluto medio, en puntos de popularidad (0-100) | ≤ 9 | **8,43** |
 
 
 ### KPIs técnicos (segmentación)
 | KPI | Definición | Meta propuesta | Resultado |
 |---|---|---|---|
-| Silhouette | Cohesión/separación de clusters | ≥ 0,5 | **≈ 0,59** (k = 3, leído del gráfico) ✅ |
-| Interpretabilidad | Cada cluster con perfil sonoro distinguible | 3 perfiles | Instrumental, hablado, mayoritario ✅ |
+| Silhouette | Cohesión/separación de clusters | ≥ 0,5 | **≈ 0,59** (k = 3, leído del gráfico) |
+| Interpretabilidad | Cada cluster con perfil sonoro distinguible | 3 perfiles | Instrumental, hablado, mayoritario |
 
 ### KPIs de negocio (propuestos para operar la solución)
 | KPI | Uso |
