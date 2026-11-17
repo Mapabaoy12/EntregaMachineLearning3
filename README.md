@@ -279,7 +279,7 @@ Dentro del cluster instrumental, el éxito se asocia con música **más acústic
 | Canciones por artista | 4,7 | 3,5 | 2,3 |
 | % de canciones del top 10 de artistas | 2,9 | 5,8 | 6,9 |
 | η² popularidad ~ género | 0,295 | **0,468** | 0,392 |
-| η² popularidad ~ artista (sin ajustar) | 0,669 | 0,784 | 0,818 |
+| η² popularidad ~ artista |0.581 | 0.697 | 0.680 |
 
 El género explica más la popularidad en el cluster instrumental (η² = 0,47). Los η² por artista **están inflados por la alta cardinalidad** (pocas canciones por artista), sobre todo en el cluster 2; deben ajustarse antes de compararse.
 
