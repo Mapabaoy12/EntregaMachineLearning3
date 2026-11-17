@@ -56,9 +56,7 @@ El problema se divide en dos preguntas:
 |---|---|---|---|
 | R² en test | Varianza de la popularidad explicada en datos no vistos | ≥ 0,55 | **0,579** ✅ |
 | MAE en test | Error absoluto medio, en puntos de popularidad (0-100) | ≤ 9 | **8,43** ✅ |
-| Estabilidad | Desviación estándar del R² entre folds de CV | ≤ 0,01 | **0,008** ✅ |
-| Generalización | Diferencia entre R² CV y R² test | ≤ 0,02 | **0,004** ✅ |
-| Mejora vs línea base | Ganancia de R² sobre regresión lineal | > 0,03 | **+0,043** ✅ |
+
 
 ### KPIs técnicos (segmentación)
 | KPI | Definición | Meta propuesta | Resultado |
