@@ -1,7 +1,7 @@
 # Inteligencia musical: predicción de popularidad y segmentación de canciones (Spotify Tracks)
 
-**Asignatura:** MLY1101 Machine Learning · **Evaluación Parcial N°3** (Caso C)
-**Equipo:** _(completar nombres)_ · **Fecha:** _(completar)_
+**Asignatura:** MLY1101 Machine Learning · **Evaluación Parcial N°3**
+**Equipo:** Benjamin Neira, Gustavo Alvial y Matias Turra · **Fecha:** 16/11/2026
 
 > Proyecto de Machine Learning que combina (1) **modelos supervisados de regresión** para predecir la popularidad de una canción (0-100) y (2) un modelo **no supervisado (K-Means)** para descubrir perfiles sonoros del catálogo. Los resultados de ambos enfoques se cruzan para extraer patrones accionables.
 
