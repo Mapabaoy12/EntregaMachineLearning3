@@ -192,7 +192,7 @@ Los tres ensambles superan a la regresión lineal en unos **0,034-0,043 de R²**
 | XGBoost (boosting) | 0,745 | 0,567 | 0,009 | 0,570 | 8,708 | 8,636 | 0,175 |
 | Regresión lineal | 0,673 | 0,528 | 0,009 | 0,536 | 9,315 | 9,183 | 0,137 |
 
-![Comparación de modelos](images/comparacion_modelos.png)
+
 
 ### 9.3 Capacidad de generalización
 - El R² de **CV y de test coinciden** en los cuatro modelos (diferencias de 0,004-0,008) y la desviación entre folds es baja (≤ 0,009): los modelos generalizan de forma estable y no se ajustaron al test.
@@ -220,7 +220,7 @@ Los tres ensambles superan a la regresión lineal en unos **0,034-0,043 de R²**
 
 **El modelo se apoya casi por completo en el artista y el género**; cada atributo acústico aporta menos de un punto de R². Los tres modelos coinciden en el orden de importancia.
 
-![Importancia de variables](images/importancia_variables.png)
+
 
 ## 10. Segmentación y cruce con los modelos supervisados
 
