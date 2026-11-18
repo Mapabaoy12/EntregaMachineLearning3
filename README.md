@@ -340,11 +340,11 @@ El género explica más la popularidad en el cluster instrumental (η² = 0,47).
 
 ```
 proyecto/
-├── README.md                          # Este informe
+├── README.md                        
 ├── requirements.txt
 ├── data/
-│   ├── Spotify_Tracks_Dataset.csv     # (o descarga con verificación de hash)
-│   ├── importancias_modelos.csv       # salida de supervisado → entrada de segmentación
+│   ├── Spotify_Tracks_Dataset.csv    
+│   ├── importancias_modelos.csv      
 │   ├── predicciones_test.csv
 │   └── tabla_comparacion_modelos.csv
 ├── notebooks/
